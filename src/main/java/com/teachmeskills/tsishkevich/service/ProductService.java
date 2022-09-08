@@ -31,6 +31,7 @@ public class ProductService {
         if (!id.equals(product.getId())) {
             product.setId(id);
         }
+        System.out.println("my new commit");
         return save(product);
     }
 
